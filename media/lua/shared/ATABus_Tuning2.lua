@@ -37,7 +37,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
                 secondary = "Base.Screwdriver",
             },
             skills = {
-                MetalWelding = 4,
+                MetalWelding = 5,
             },
             recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"EngineDoor"},
@@ -120,7 +120,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
                 secondary = "Base.Screwdriver",
             },
             skills = {
-                MetalWelding = 6,
+                MetalWelding = 7,
             },
             recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"EngineDoor", "TireFrontLeft", "TireFrontRight", "GasTank"},

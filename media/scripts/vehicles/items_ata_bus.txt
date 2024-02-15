@@ -23,6 +23,7 @@ module Autotsar
         Weight    =    0.1,
         Type    =    Literature,
         DisplayName    =    AT Tuning - Bus,
+        DisplayCategory = Literature,
         Icon    =    AtTuningMagBusIcon,
         TeachedRecipes  =   Basic Tuning;ATABusRecipes,
         ReplaceOnUse    =   AtTuningMagBus,

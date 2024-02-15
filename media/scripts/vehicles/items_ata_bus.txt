@@ -20,13 +20,13 @@ module Autotsar
     
     item AtTuningMagBus
     {
-        Weight    =    0.1,
-        Type    =    Literature,
-        DisplayName    =    AT Tuning - Bus,
-        DisplayCategory = Literature,
-        Icon    =    AtTuningMagBusIcon,
-        TeachedRecipes  =   Basic Tuning;ATABusRecipes,
-        ReplaceOnUse    =   AtTuningMagBus,
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = Autotsar Tuning - Bus,
+        DisplayCategory = SkillBook,
+        Icon = AtTuningMagBusIcon,
+        TeachedRecipes = Basic Tuning;ATABusRecipes,
+        ReplaceOnUse = AtTuningMagBus,
         Tooltip = Tooltip_item_AtTuningMagBus,
         StaticModel = Autotsar.AtTuningMagBus_Reading,
         WorldStaticModel = Autotsar.AtTuningMagBus_Ground,

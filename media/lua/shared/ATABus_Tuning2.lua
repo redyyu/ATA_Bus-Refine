@@ -39,7 +39,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"EngineDoor"},
             time = 65,
         },
@@ -55,6 +55,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -79,7 +80,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 6,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"EngineDoor", "TireFrontLeft", "TireFrontRight"},
             time = 65,
         },
@@ -95,6 +96,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -120,7 +122,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 6,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"EngineDoor", "TireFrontLeft", "TireFrontRight", "GasTank"},
             time = 65,
         },
@@ -136,6 +138,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -163,7 +166,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorFrontRight"] = {
             skills = {
                 MetalWelding = 6,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"DoorFrontRight", "WindowFrontRight"},
             time = 65, 
         },
@@ -179,6 +182,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorFrontRight"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -205,7 +209,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorsRear"] = {
             skills = {
                 MetalWelding = 7,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindshieldRear"},
             time = 65, 
         },
@@ -221,6 +225,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorsRear"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -268,7 +273,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
             skills = {
                 MetalWelding = 5,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 65, 
         },
         uninstall = {
@@ -284,6 +289,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             requireUninstalled = {"ATA2RoofRackToolbox"},
             time = 40,
@@ -310,7 +316,7 @@ NewCarTuningTable["ATABus"].parts["ATA2RoofRackToolbox"] = {
                 MetalWelding = 6,
             },
             requireInstalled = {"ATA2InteractiveTrunkRoofRack"},
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             time = 65, 
         },
         uninstall = {
@@ -326,6 +332,7 @@ NewCarTuningTable["ATABus"].parts["ATA2RoofRackToolbox"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -351,7 +358,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionRearLeftWheel"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"TireRearLeft"},
             time = 40, 
         },
@@ -368,6 +375,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionRearLeftWheel"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 20,
         }
@@ -402,7 +410,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindshield"] = {
             skills = {
                 MetalWelding = 3,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"Windshield"},
             time = 65, 
         },
@@ -420,6 +428,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindshield"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -448,7 +457,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsLeft"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindowFrontLeft", "WindowMiddleLeft", "WindowRearLeft"},
             time = 65, 
         },
@@ -464,6 +473,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsLeft"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
@@ -494,7 +504,7 @@ NewCarTuningTable["ATAPrisonBus"].parts["ATA2ProtectionWindowsLeft"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindowFrontLeft"},
             time = 65, 
         },
@@ -510,13 +520,14 @@ NewCarTuningTable["ATAPrisonBus"].parts["ATA2ProtectionWindowsLeft"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }
     }
 }
 
--- данная таблица заполняется после копирования таблицы в ATA2PrisonBus
+
 NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsRight"] = {
     Protection_windows_right = {
         icon = "media/ui/tuning2/bus_protection_window_side.png",
@@ -539,7 +550,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsRight"] = {
             skills = {
                 MetalWelding = 4,
             },
-            recipes = {carRecipe},
+            recipes = {"Intermediate Mechanics", carRecipe},
             requireInstalled = {"WindowMiddleRight", "WindowRearRight"},
             time = 65, 
         },
@@ -556,6 +567,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsRight"] = {
             skills = {
                 MetalWelding = 2,
             },
+            recipes = {"Intermediate Mechanics"},
             result = "auto",
             time = 40,
         }

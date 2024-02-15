@@ -112,7 +112,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
                 MetalPipe = 5,
                 SheetMetal = 10,
                 Screws=8,
-                BlowTorch = 14,
+                BlowTorch = 10,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",

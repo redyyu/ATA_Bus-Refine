@@ -27,7 +27,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         removeIfBroken = true,
         install = {
             use = {
-                MetalPipe = 10,
+                MetalPipe = 6,
                 Screws=4,
                 BlowTorch = 7,
             },
@@ -68,9 +68,9 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         removeIfBroken = true,
         install = {
             use = {
-                MetalPipe = 15,
+                MetalPipe = 10,
                 Screws=6,
-                BlowTorch = 10,
+                BlowTorch = 8,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -109,8 +109,8 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         removeIfBroken = true,
         install = {
             use = {
-                MetalPipe = 5,
-                SheetMetal = 10,
+                MetalPipe = 4,
+                SheetMetal = 8,
                 Screws=8,
                 BlowTorch = 10,
             },
@@ -154,7 +154,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorFrontRight"] = {
         install = {
             use = {
                 MetalPipe = 4,
-                SheetMetal=10,
+                SheetMetal=6,
                 Screws=4,
                 BlowTorch = 10,
             },
@@ -198,7 +198,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorsRear"] = {
         install = {
             use = {
                 MetalPipe = 6,
-                SheetMetal=12,
+                SheetMetal=8,
                 Screws=8,
                 BlowTorch = 10,
             },
@@ -305,8 +305,8 @@ NewCarTuningTable["ATABus"].parts["ATA2RoofRackToolbox"] = {
         install = {
             area = "TruckBed",
             use = { 
-                SheetMetal = 8,
-                BlowTorch = 6,
+                SheetMetal = 4,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",

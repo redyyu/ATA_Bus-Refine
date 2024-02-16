@@ -28,7 +28,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         install = {
             use = {
                 MetalPipe = 6,
-                Screws=3,
+                Screws=15,
                 BlowTorch = 7,
             },
             tools = {
@@ -69,7 +69,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         install = {
             use = {
                 MetalPipe = 10,
-                Screws=4,
+                Screws=20,
                 BlowTorch = 8,
             },
             tools = {
@@ -87,7 +87,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         uninstall = {
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=7,
+                BlowTorch=4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -111,7 +111,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
             use = {
                 MetalPipe = 4,
                 SheetMetal = 8,
-                Screws=5,
+                Screws=25,
                 BlowTorch = 10,
             },
             tools = {
@@ -129,7 +129,7 @@ NewCarTuningTable["ATABus"].parts["ATA2Bullbar"] = {
         uninstall = {
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=10,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -155,7 +155,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorFrontRight"] = {
             use = {
                 MetalPipe = 4,
                 SheetMetal=6,
-                Screws=4,
+                Screws=20,
                 BlowTorch = 10,
             },
             tools = {
@@ -173,7 +173,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorFrontRight"] = {
         uninstall = {
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=10,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -199,7 +199,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorsRear"] = {
             use = {
                 MetalPipe = 6,
                 SheetMetal=8,
-                Screws=4,
+                Screws=20,
                 BlowTorch = 10,
             },
             tools = {
@@ -216,7 +216,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionDoorsRear"] = {
         uninstall = {
             animation = "ATA_Crowbar_DoorLeft",
             use = {
-                BlowTorch=10,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -263,7 +263,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
             use = {
                 MetalPipe = 6,
                 MetalBar=7,
-                Screws=4,
+                Screws=20,
                 BlowTorch = 10,
             },
             tools = {
@@ -280,7 +280,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
             area = "RoofRack",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=10,
+                BlowTorch=5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -323,7 +323,7 @@ NewCarTuningTable["ATABus"].parts["ATA2RoofRackToolbox"] = {
             area = "TruckBed",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=10,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -348,8 +348,8 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionRearLeftWheel"] = {
         install = {
             use = {
                 MetalBar=3,
-                Screws=3,
-                BlowTorch = 4,
+                Screws=15,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -366,7 +366,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionRearLeftWheel"] = {
             animation = "ATA_IdleLeverOpenLow",
             sound = "BlowTorch",
             use = {
-                BlowTorch=4,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -399,8 +399,8 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindshield"] = {
             area = "GasTank",
             use = {
                 MetalBar=9,
-                Screws=3,
-                BlowTorch = 4,
+                Screws=15,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -446,8 +446,8 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsLeft"] = {
             use = {
                 MetalPipe = 3,
                 MetalBar=6,
-                Screws=3,
-                BlowTorch = 4,
+                Screws=15,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -464,7 +464,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsLeft"] = {
         uninstall = {
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=4,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -493,8 +493,8 @@ NewCarTuningTable["ATAPrisonBus"].parts["ATA2ProtectionWindowsLeft"] = {
             use = {
                 MetalPipe = 3,
                 MetalBar=6,
-                Screws=3,
-                BlowTorch = 4,
+                Screws=15,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -511,7 +511,7 @@ NewCarTuningTable["ATAPrisonBus"].parts["ATA2ProtectionWindowsLeft"] = {
         uninstall = {
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=4,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -539,8 +539,8 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsRight"] = {
             use = {
                 MetalPipe = 3,
                 MetalBar=6,
-                Screws=3,
-                BlowTorch = 4,
+                Screws=15,
+                BlowTorch = 5,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -558,7 +558,7 @@ NewCarTuningTable["ATABus"].parts["ATA2ProtectionWindowsRight"] = {
             area = "SeatMiddleRight",
             animation = "ATA_IdleLeverOpenHigh",
             use = {
-                BlowTorch=4,
+                BlowTorch=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",

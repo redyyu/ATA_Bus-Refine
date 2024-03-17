@@ -1,10 +1,5 @@
 require "PaintVehicle.lua"
 
-local vehicleTable = {
-    ["Base.ATAArmyBus"] = "PaintWhite",
-    ["Base.ATAPrisonBus"] = "PaintRed",
-    ["Base.ATASchoolBus"] = "PaintGreen",
-}
 local vehiclePaintTable = {
     ["Base.ATAArmyBus"] = {
         ["PaintWhite"] = 1,
@@ -42,7 +37,7 @@ local function doFillMenuOutsideVehicle(playerObj, context, vehicle, test)
                                                             vehicle,
                                                             vehicle:getSkinIndex()-1,
                                                             getText("ContextMenu_Vehicle_Clean_EGNH"),
-                                                            1)
+                                                            2)
         end
 
         if not menuAvailable then

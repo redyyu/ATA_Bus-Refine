@@ -2,13 +2,13 @@ require "PaintVehicle.lua"
 
 local vehiclePaintTable = {
     ["Base.ATAArmyBus"] = {
-        ["PaintWhite"] = 1,
+        ["PaintWhite"] = 2,
     },
     ["Base.ATAPrisonBus"] = {
-        ["PaintRed"] = 1,
+        ["PaintRed"] = 2,
     },
     ["Base.ATASchoolBus"] = {
-        ["PaintGreen"] = 1,
+        ["PaintGreen"] = 2,
     }
 }
 

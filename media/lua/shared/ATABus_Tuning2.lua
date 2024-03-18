@@ -257,7 +257,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 },
             }
         },
-        containerCapacity = 200,
+        containerCapacity = 180,
         install = {
             area = "RoofRack",
             use = {

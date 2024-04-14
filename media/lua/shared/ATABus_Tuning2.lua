@@ -236,6 +236,7 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
     Fench = {
         icon = "media/ui/tuning2/bus_roof_rack.png",
         category = "Storage",
+        containerCapacity = 180,
         interactiveTrunk = {
             filling = {"TentBox"},
             items = {
@@ -257,7 +258,6 @@ NewCarTuningTable["ATABus"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 },
             }
         },
-        containerCapacity = 180,
         install = {
             area = "RoofRack",
             use = {
